@@ -1,0 +1,24 @@
+Animal				Book				Vehicle
+----------			----------			------------
++ name: str			+ title: str			+ make: str
++ age: int			+ author(s): str		+ model: str
++ birthday: date		+ length: int			+ year: date
+------------			--------------			+ owner: Person
++ move()			+ open()			---------------
+				+ close()			+ move()
+Fish(Animal)			+ read()			
+------------							Car(Vehicle)
++ freshwater: bool		Textbook(Book)			---------------
+				---------------			+ electric: bool
+Snake(Animal)			+ subject: str			
+------------							Bicycle(Vehicle)
++ venom: bool			AddressBook(Book)		-----------------
+				-----------------		+ basket: bool
+Person(Animal)			+ contact: Person		
+-------------			-----------------		Boat(Vehicle)
++ job: str			+ write()			----------------
++ married: bool							+ sailboat: bool
++ address: str							
++ phone: str							HotAirBalloon(Vehicle)				
+								-----------------------
+								+ inflated: bool
